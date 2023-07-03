@@ -17,7 +17,7 @@ public class shoppingCart {
 		cart.remove(book.title);
 		cartPrice.remove(book.price);
 	}
-	public void clear(book book) {
+	public void clear() {
 		cart.clear();
 		cartPrice.clear();
 	}
